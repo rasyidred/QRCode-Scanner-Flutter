@@ -21,6 +21,7 @@ environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
+  platform: ^3.1.0
   flutter:
     sdk: flutter
 
@@ -29,12 +30,12 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   qr_flutter: ^4.0.0
-  qr_code_scanner: ^0.5.2
+  qr_code_scanner: ^1.0.1
   path_provider: ^2.0.2
   share: ^2.0.4
   screenshot: ^1.2.3
   image_gallery_saver: ^1.6.9
-  permission_handler: ^8.1.4+2
+  permission_handler: ^10.1.0
 
 dev_dependencies:
   flutter_test:
